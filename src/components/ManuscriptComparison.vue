@@ -148,11 +148,11 @@ export default {
       } else if (word.toLowerCase() === 'dolores') {
         return [
           { id: 1, name: 'Doloria (root)', x: 250, y: 50, links: [2, 5] },
-          { id: 2, name: 'Doloris', x: 150, y: 150, links: [3, 4] },
+          { id: 2, name: 'Doloris (Babarossa)', x: 150, y: 150, links: [3, 4] },
           { id: 3, name: 'Dolores', x: 100, y: 250, links: [] },
           { id: 4, name: 'Dolors', x: 200, y: 250, links: [] },
-          { id: 5, name: 'Dolor', x: 350, y: 150, links: [6] },
-          { id: 6, name: 'Dolores', x: 350, y: 250, links: [] },
+          { id: 5, name: 'Dolor (Erwin)', x: 350, y: 150, links: [6] },
+          { id: 6, name: 'Accordio', x: 350, y: 250, links: [] },
         ];
       } else {
         return [
