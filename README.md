@@ -1,6 +1,12 @@
-# digitale-editionen
+# digitale-editionen: Small Vue Mock Up
 
 ## Project setup
+
+Make sure you have node installed on your system!
+- https://nodejs.org/en
+
+
+
 ```
 npm install
 ```
@@ -10,15 +16,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
