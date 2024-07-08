@@ -157,14 +157,14 @@ export default {
       } else {
         return [
           { id: 1, name: `${word} (Original)`, x: 250, y: 50, links: [2, 5, 7] },
-          { id: 2, name: `${word} (Ellesmere)`, x: 150, y: 150, links: [3, 4] },
-          { id: 3, name: `${word} (Ellesmere Edition 1)`, x: 100, y: 250, links: [] },
-          { id: 4, name: `${word} (Ellesmere Edition 2)`, x: 200, y: 250, links: [] },
-          { id: 5, name: `${word} (Hengwrt)`, x: 350, y: 150, links: [6] },
-          { id: 6, name: `${word} (Hengwrt Edition 1)`, x: 350, y: 250, links: [] },
-          { id: 7, name: `${word} (Cambridge)`, x: 250, y: 150, links: [8, 9] },
-          { id: 8, name: `${word} (Cambridge Edition 1)`, x: 200, y: 250, links: [] },
-          { id: 9, name: `${word} (Cambridge Edition 2)`, x: 300, y: 250, links: [] },
+          { id: 2, name: `${word} (Babarossa)`, x: 150, y: 150, links: [3, 4] },
+          { id: 3, name: `${word} (Babarossa Edition 1)`, x: 100, y: 250, links: [] },
+          { id: 4, name: `${word} (Barbarossa Edition 2)`, x: 200, y: 250, links: [] },
+          { id: 5, name: `${word} (Helmut)`, x: 350, y: 150, links: [6] },
+          { id: 6, name: `${word} (Helmut Edition 1)`, x: 350, y: 250, links: [] },
+          { id: 7, name: `${word} (Erwin)`, x: 250, y: 150, links: [8, 9] },
+          { id: 8, name: `${word} (Erwin Edition 1)`, x: 200, y: 250, links: [] },
+          { id: 9, name: `${word} (Erwin Edition 2)`, x: 300, y: 250, links: [] },
         ];
       }
     },
